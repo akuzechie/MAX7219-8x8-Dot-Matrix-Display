@@ -1,0 +1,19 @@
+###########################################
+# Syntax Coloring Map for HT16K33 Library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+MAX7219DotMatrix 	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+Init	KEYWORD2
+Clear	KEYWORD2
+Number 	KEYWORD2
+Letter 	KEYWORD2
+Byte 	KEYWORD2
