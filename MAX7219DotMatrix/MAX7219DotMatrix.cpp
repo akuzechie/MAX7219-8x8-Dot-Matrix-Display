@@ -15,11 +15,6 @@ MAX7219DotMatrix::MAX7219DotMatrix(int DIN, int CS, int CLK)
     pinMode(CLK, OUTPUT); _CLK = CLK;
 }
 //-------------------------------------------------------------
-// Function Prototypes
-//-------------------------------------------------------------
-void MAX7219_write(uint8_t, uint8_t);
-void SPI_send(uint8_t);
-//-------------------------------------------------------------
 // Methods
 //-------------------------------------------------------------
 void MAX7219DotMatrix::Init(byte brightness)
