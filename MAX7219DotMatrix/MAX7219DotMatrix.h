@@ -19,13 +19,12 @@ class MAX7219DotMatrix
         void Number(byte n);
         void Letter(char l);
         void Byte(byte row, byte value);
-        void MAX7219_write(uint8_t cmd_byte, uint8_t data_byte);
-        void SPI_send(uint8_t data);
-
     private:
         int _DIN;
         int _CS;
         int _CLK;
+        void MAX7219_write(uint8_t cmd_byte, uint8_t data_byte);
+        void SPI_send(uint8_t data);
 };
 //--------------------------------------------------------
 #endif
